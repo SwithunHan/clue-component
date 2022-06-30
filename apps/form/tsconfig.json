@@ -1,0 +1,10 @@
+{
+  "extends": "@tsconfig/svelte",
+  "compilerOptions": {
+    "declarationDir": "./dist/types", /* '.d.ts' 文件输出目录 */
+    "declaration": true,
+    "sourceMap": true
+  },
+  "include": ["src/**/*"],
+  "exclude": ["node_modules/*"]
+}
